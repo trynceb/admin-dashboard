@@ -10,10 +10,13 @@ import {
 import FlexBetween from "components/FlexBetween"
 import {useDispatch} from "react-redux"
 import {setMode} from "state"
-// import profileImage from "assets/profile.jpg"
+import profileImage from "assets/profile.jpg"
 import { AppBar, InputBase, IconButton, Toolbar, useTheme } from "@mui/material"
 
-const Navbar = () => {
+const Navbar = ({
+    isSidebarOpen,
+    setIsSidebarOpen,
+}) => {
     const dispatch = useDispatch()
     const theme = useTheme()
 
