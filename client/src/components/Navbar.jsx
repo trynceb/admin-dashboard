@@ -35,14 +35,15 @@ const Navbar = ({
             }}>
                 {/* LEFT SIDE */}
                 <FlexBetween>
-                    <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
-                        <MenuIcon sx={{ marginRight: "0.5rem" }} />
+                    <IconButton sx={{ marginRight: "0.5rem" }} onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
+                        <MenuIcon />
                     </IconButton>
                     <FlexBetween
                         backgroundColor={theme.palette.background.alt}
                         borderRadius="9px"
                         gap="3rem"
                         p="0.1rem 1.5rem"
+                        sx={{ marginRight: "0.5rem" }}
                     >
                         <InputBase placeholder="Search.." />
                         <IconButton>
