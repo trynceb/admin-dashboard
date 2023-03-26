@@ -57,7 +57,7 @@ const Transactions = () => {
     <Box m="1.5rem 2.5rem">
         <Header title="TRANSACTIONS" subtitle="Entire list of transactions" />
         <Box 
-            height="80vh"
+            height="76vh"
             sx={{
                 "& .MuiDataGrid-root": {
                     border: "none"

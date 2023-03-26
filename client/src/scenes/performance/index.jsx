@@ -49,7 +49,7 @@ const Performance = () => {
         subtitle="Track your Affiliate Sales Performance here."
       />
       <Box
-        mt="40px"
+        mt="20px"
         height="75vh"
         sx={{
           "& .MuiDataGrid-root": {
